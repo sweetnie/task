@@ -21,7 +21,7 @@ public class RestaurantController {
     private List<Restaurant> restaurantList;
     Random random = new Random();
 
-    // set default restaurant name with cuisine in list
+    // set default restaurant name with location in list
     public RestaurantController() {
         this.restaurantList = new ArrayList<>();
         this.restaurantList.add(new Restaurant("Abu Bakar Roti Prata House - Sembawang"));
