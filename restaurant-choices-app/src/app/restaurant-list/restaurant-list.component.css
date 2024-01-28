@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:wght@500&display=swap');
+
+.center-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.center-text {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center-text li {
+  font-size: 20pt;
+  margin-bottom: 8px;
+  color: #f1f9de;
+  margin-top: 10px;
+  font-family: 'Caveat', cursive;
+}
+
+.list-container {
+  margin-top: 10px;
+  border: 1px solid #e0d7d7;
+  border-radius: 10px;
+  background-color: #252536b7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.button1 {
+  background-color: #abc36d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #8be87f;
+}
+
+
+

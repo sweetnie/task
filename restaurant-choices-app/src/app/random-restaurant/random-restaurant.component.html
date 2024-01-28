@@ -1,0 +1,6 @@
+<div class="center-container2">
+  <button mat-button class="button1" (click)="getRandomRestaurant()">Get Random Restaurant</button>
+  <div *ngIf="randomRestaurant" class="restaurant-name">
+    <p>{{ randomRestaurant.name }}</p>
+  </div>
+</div>

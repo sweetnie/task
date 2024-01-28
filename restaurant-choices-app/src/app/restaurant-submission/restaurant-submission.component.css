@@ -1,0 +1,33 @@
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-mat {
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.text-mat {
+  color: white;
+}
+
+.button2 {
+  background-color: #abc36d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #8be87f;
+}
+
+.error {
+  margin-bottom: 10px ;
+}
+

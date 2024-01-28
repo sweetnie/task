@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #100c3d;
+  color: #fefff8;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+.dialog-content h3 {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dialog-content p {
+  max-width: auto;
+  overflow-wrap: break-word;
+}

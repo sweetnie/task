@@ -1,0 +1,12 @@
+<div class="center-container3">
+  <button mat-button class="button1" (click)="getRestaurants()">
+    {{ isListShow ? 'Close Restaurant List' : 'Open Restaurant List' }}</button>
+</div>
+
+<div *ngIf="isListShow" class="center-container3 list-container">
+  <ul class="center-text">
+    <li *ngFor="let restaurant of restaurants">{{ restaurant.name }}</li>
+  </ul>
+</div>
+
+

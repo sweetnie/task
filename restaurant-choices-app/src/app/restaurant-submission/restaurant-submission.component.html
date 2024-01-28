@@ -1,0 +1,16 @@
+<div class="center-container">
+  <form [formGroup]="form" (ngSubmit)="submitRestaurant()">
+    <mat-form-field class="input-mat">
+      <div>
+        <input formControlName="name" class="text-mat" matInput type="text" placeholder="Saizeriya - Toa Payoh" required>
+      </div>
+    </mat-form-field>
+    <div *ngIf="name.invalid && (name.dirty || name.touched)">
+      <mat-error class="error" *ngIf="name.errors?.['required']">Restaurant name is required.</mat-error>
+      <mat-error class="error" *ngIf="name.errors?.['invalidFormat']">Invalid format. Please enter in format "restaurant name - location".</mat-error>
+    </div>
+      <div>
+        <button mat-button class="button2" type="submit" [disabled]="form.invalid">Submit</button>
+      </div>
+  </form>
+</div>
